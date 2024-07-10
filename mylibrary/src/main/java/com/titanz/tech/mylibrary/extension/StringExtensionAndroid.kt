@@ -1,4 +1,4 @@
-package com.titanz.tech.mylibrary
+package com.titanz.tech.mylibrary.extension
 
 import java.text.SimpleDateFormat
 import java.util.Date

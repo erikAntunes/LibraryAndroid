@@ -1,4 +1,4 @@
-package com.titanz.tech.mylibrary
+package com.titanz.tech.mylibrary.extension
 
 import android.content.Context
 import android.view.View

@@ -1,4 +1,4 @@
-package com.titanz.tech.mylibrary
+package com.titanz.tech.mylibrary.extension
 
 import java.text.NumberFormat
 import java.util.Locale
