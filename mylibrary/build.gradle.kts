@@ -50,7 +50,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.titanz.tech.mylibrary"
                 artifactId = "LibraryAndroid"
-                version = "1.0.15"
+                version = "0.0.1"
             }
         }
         repositories {
