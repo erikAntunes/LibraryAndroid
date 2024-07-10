@@ -1,4 +1,4 @@
-LIB ANDROID
+LIB ANDROID COM EXTENSIONS EM GERAL
 
 Passos para publicar e consumir a Lib:
 
