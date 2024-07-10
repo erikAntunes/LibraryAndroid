@@ -33,7 +33,7 @@ Passos para publicar e consumir a Lib:
 
 10 - Dentro do gradle.settings do projeto que irá consumir a Lib, adicionar a permissão do jitpack.
   - Exemplo:
-  - 
+  - Caso de Lib Pública:
   dependencyResolutionManagement {
       repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
       repositories {
@@ -41,6 +41,22 @@ Passos para publicar e consumir a Lib:
           mavenCentral()
           maven{ url = uri("https://jitpack.io") }
       }
+}
+- Caso de Lib Privada:
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+            credentials {
+                val authToken: String by settings
+                username = authToken
+            }
+        }
+    }
 }
 
 11 - A Lib está pronta para ser consumida.
