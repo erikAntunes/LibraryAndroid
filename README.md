@@ -18,7 +18,7 @@ Passos para publicar e consumir a Lib:
   - Exemplo: git push origin 0.0.1
   - 
 6 - Push na branch main
-7 - Acessar: jitpack.io e copiar a URL do projeto no git e colar no campo de localização do Jitpack.
+7 - Acessar: (https://jitpack.io) e copiar a URL do projeto no git e colar no campo de localização do Jitpack.
   - Exemplo : erikAntunes/LibraryAndroid
   - 
 8 - Dar Get it e recuperar a url de implementação dentro da Aplicação que for consumir a Lib. 
