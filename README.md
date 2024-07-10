@@ -1,4 +1,4 @@
-LIB ANDROID
+BIBLIOTECA ANDROID COM EXTENSIONS EM GERAL
 
 Passos para publicar e consumir a Lib:
 
@@ -34,14 +34,20 @@ Passos para publicar e consumir a Lib:
 10 - Dentro do gradle.settings do projeto que irá consumir a Lib, adicionar a permissão do jitpack.
   - Exemplo:
   - Caso de Lib Pública:
+  - 
   dependencyResolutionManagement {
+
       repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    
       repositories {
+    
           google()
           mavenCentral()
           maven{ url = uri("https://jitpack.io") }
       }
+    
 }
+
 - Caso de Lib Privada:
 
 dependencyResolutionManagement {
