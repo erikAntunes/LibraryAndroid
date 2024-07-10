@@ -45,18 +45,27 @@ Passos para publicar e consumir a Lib:
 - Caso de Lib Privada:
 
 dependencyResolutionManagement {
+
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    
     repositories {
+    
         google()
         mavenCentral()
         maven {
+        
             url = uri("https://jitpack.io")
             credentials {
+            
                 val authToken: String by settings
                 username = authToken
+                
             }
+            
         }
+        
     }
+    
 }
 
 11 - A Lib está pronta para ser consumida.
